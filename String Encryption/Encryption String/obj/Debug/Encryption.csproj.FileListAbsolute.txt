@@ -1,0 +1,10 @@
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\bin\Debug\Encryption.exe.config
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\bin\Debug\Encryption.exe
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\bin\Debug\Encryption.pdb
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.csprojAssemblyReference.cache
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.Form1.resources
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.Properties.Resources.resources
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.csproj.GenerateResource.cache
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.csproj.CoreCompileInputs.cache
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.exe
+C:\Users\Simangaliso\Documents\IT\CMPG215 (Information Security)\Encryption\obj\Debug\Encryption.pdb
