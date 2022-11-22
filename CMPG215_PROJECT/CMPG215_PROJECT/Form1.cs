@@ -1,14 +1,4 @@
-﻿/*  
-    GROUP MEMBERS 
-    B NDABA – 35482737 
-    G MNISI – 34292748
-    N MADONSELA – 34729100
-    S THULARE – 28124227 
-    TT NEDAMBALE – 33574359 
-  
-  */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,7 +28,7 @@ namespace CMPG215_PROJECT
 
         //Connection for the database
         //Attach your own connection string on the SQL Connection (example new SqlConnection = (@" Connection String ");)
-        SqlConnection Connection = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Simangaliso\Desktop\CMPG215_PROJECT\CMPG215_PROJECT\InfoDB.mdf;Integrated Security = True");
+        SqlConnection Connection = new SqlConnection(@"ConnectionString");
         SqlCommand Command;
         SqlDataAdapter Adapter;
         DataSet DS;
