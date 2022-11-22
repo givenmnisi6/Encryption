@@ -10,18 +10,25 @@ In cryptography, encryption is the process of encoding (convert into a coded for
 ## Phase 1 - Password Hash
 To make the hash function public to all forms, we are developed a class. The hash password returns a string. We added the header "using System.Security.Cryptography" to allow users to access various cryptographic features. To generate the hash value of 20-byte, we utilized the Cryptography formatted hash function known as the SHA (Secure Hash Algorithm) algorithm. We used a byte array to store our ASCII formatted password. On the completion of our password hash class and method we parsed it to the textboxes which deliver data/password hashes to the database.
 
-## Phase 2 - Self-created Algorithm
+## Phase 2 - Self-created Algorithm - Encrypt & Decrypt
 The algorithm uses 3 steps:
-1. It swaps the first letter in the string with the last letter (e.g. “James” --≫ “sameJ” and “Hello 
-world” --≫ “dello worlH”)
-2. It reverses then new string created in step 1 (e.g. “sameJ” --≫ “Jemas” and “dello worlH” --≫ “Hlrow 
-olled”)
-3. It takes the reversed string from step 2 and moves each character in the string 3 spaces up on the 
-ASCII table. (e.g. “Jemas” --≫ “Mhpdv” and “Hlrow olled” --≫ “Kourz#roohg”)
+1. Swap the first letter in the string with the last letter.
+      | Original      | New             |
+      | :------------ |:---------------:|
+      | James         | sameJ           |
+      | Hello world   | dello worlH     |
+2. Reverse then new string created in step 1 
+      | Original      | New             |
+      | :------------ |:---------------:|
+      | sameJ         | Jemas           |
+      | dello worlH   | Hlrow olled     |
 
-Encryption algorithm used (DES, AES, etc.) to encrypt a file
-- The user must first register in order to use the program.
-- It can encrypt a photo, text file and rar file.
-- Uses a hash as a password.
-- Uses self created encryption algorithm.
-- Removes unencrypted files after encryption.
+3. Take the reversed string from step 2 and moves each character in the string 3 spaces up on the 
+ASCII table.
+      | Original      | New             |
+      | :------------ |:---------------:|
+      | Jemas         | Mhpdv           |
+      | Hlrow olled   | Kourz#roohg     |
+      
+- The algorithm is reversed to decode the text; thus step 3 of the encryption process becomes step 1 of the decryption process. 
+
